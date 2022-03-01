@@ -216,6 +216,7 @@ select {
     border-right: none;
     border-left: none;
     color: #BDBDBD;
+    margin-top: 40px;
 }
 
 .padding-70 {
@@ -488,7 +489,7 @@ footer {
     padding: 0;
 }
 
-#collapsibleNavbar > ul {
+#collapsibleNavbar>ul {
     display: flex;
 }
 
@@ -559,16 +560,41 @@ img:hover {
     .related-products article {
         width: 50%;
     }
+
 }
 
 @media screen and (min-width: 992px) {
     .related-products article {
         width: 25%;
     }
+}
+
+@media screen and (max-width: 992px) {
     .sidebar {
         display: none;
+        width: 100%;
     }
 }
-#collapsibleNavbar.navbar-collapse{
+
+#collapsibleNavbar.navbar-collapse {
     flex-grow: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-style-type {
+    list-style-type: none;
+}
+
+.padding-left-100 {
+    padding-left: 100px;
+}
+
+.margin-top-50 {
+    margin-top: 40px;
+}
+footer{
+    height: 450px;
 }

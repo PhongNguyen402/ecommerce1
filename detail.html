@@ -16,10 +16,44 @@
         p {
             line-height: 100%;
         }
+
+        ul {
+            list-style-type: initial;
+        }
     </style>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-sm navbar-dark position-fixed w-100">
+        <div class="color-black container flex-container container justify-content-sb top-nav">
+            <a href="#" style="text-transform: uppercase;">Nordic Coder</a>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul>
+                    <li> <a href="#">New</a></li>
+                    <li>
+                        <a href="listing.html">Shop</a>
+                        <ul>
+                            <li> <a href="#">Tops</a></li>
+                            <li> <a href="#">Accessories</a></li>
+                            <li> <a href="#">Jeans</a></li>
+                            <li>
+                                <a href="#">Jackets</a>
+                                <ul class="submenu2">
+                                    <li><a href="#">Blazers</a></li>
+                                    <li><a href="#">Coats</a></li>
+                                    <li><a href="#">Demin Jackets</a></li>
+                                </ul>
+                            </li>
+                            <li> <a href="#">Shoes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#"><img src="img/vector1.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <section class="flex-container container justify-content-sb container">
         <div class="flex-container flex-direction-column w-20 w-h-80">
             <img src="img/rectangle40.png" alt="rectangle" class="hover-picture-opacity">
@@ -28,9 +62,9 @@
             <img src="img/rectangle27.jpg" alt="rectangle" class="boder-2-solid ">
         </div>
         <img src="img/rectangle6.jpg" alt="rectangle6" class="w-40">
-        <div class="flex-container align-content-between">
-            <div>
-                <div class="color-black ">
+        <div class="flex-container align-content-between  w-40">
+            <div class="w-100 ">
+                <div class="color-black">
                     <a href="home.html">Home <img src="img/vector4.png" alt="vector"></a>
                     <a href="#">Jackets <img src="img/vector4.png" alt="vector"></a>
                     <a href="#">Julia</a>
@@ -141,7 +175,43 @@
         </section>
 
     </main>
-
+    <footer>
+        <div class="container padding-70 flex-container justify-content-sb">
+            <ul>
+                <p class="color-silver">About us</p>
+                <li>Our company</li>
+                <li>Our history</li>
+                <li>Contact</li>
+                <li>Jobs</li>
+                <li>Journal</li>
+                <li>Store Locations</li>
+            </ul>
+            <ul>
+                <p class="color-silver">How can we help</p>
+                <li>FAQs</li>
+                <li>Order tracking</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Returns & Refunds</li>
+                <li>Support</li>
+            </ul>
+            <ul>
+                <p class="color-silver">Shop</p>
+                <li>Tops</li>
+                <li>Accessories</li>
+                <li>Jeans</li>
+                <li>Jackets</li>
+                <li>Shoes</li>
+            </ul>
+            <ul class="security-system">
+                <p class="color-silver">Security system</p>
+                <li>PCI security standards</li>
+                <li>Protect card owner</li>
+                <li>Encrypted network</li>
+            </ul>
+        </div>
+        <p class="color-silver flex-container container padding-left-100">Copyright © 2020 Nordic Coder. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>

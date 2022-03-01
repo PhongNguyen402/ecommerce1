@@ -10,28 +10,92 @@
 </head>
 
 <body>
-    <main class="container">
-        <div>
-            <p class="font-size-36" style="display: inline-block;"> Create account </p>
-            <a href="login.html" style="color: black;">Login <img src="img/vector3.png" alt="vector"></a>
+    <nav class="navbar navbar-expand-sm navbar-dark position-fixed w-100">
+        <div class="color-black container flex-container container justify-content-sb top-nav">
+            <a href="#" style="text-transform: uppercase;">Nordic Coder</a>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul>
+                    <li> <a href="#">New</a></li>
+                    <li>
+                        <a href="listing.html">Shop</a>
+                        <ul>
+                            <li> <a href="#">Tops</a></li>
+                            <li> <a href="#">Accessories</a></li>
+                            <li> <a href="#">Jeans</a></li>
+                            <li>
+                                <a href="#">Jackets</a>
+                                <ul class="submenu2">
+                                    <li><a href="#">Blazers</a></li>
+                                    <li><a href="#">Coats</a></li>
+                                    <li><a href="#">Demin Jackets</a></li>
+                                </ul>
+                            </li>
+                            <li> <a href="#">Shoes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#"><img src="img/vector1.png" alt=""></a></li>
+                </ul>
+            </div>
         </div>
-
-        <div>
-            <form>
-                <input type="email" name="email" placeholder="Email address*" class="boder-padding">
-                <input type="password" name="password" placeholder="Password*" class="boder-padding">
-            </form>
-        </div>
-
-        <div>
-            <p>Your personal data will be used to support your experience throughout this website,
-                to manage access to your
-                account, and for other purposes described in our <a href="#" style="color: black;">privacy policy.</a>
-            </p>
-
-        </div>
-        <button type="button" class="boder-radius-30 back-ground-black color-white padding-10-60 boder-none">Register</button>
+    </nav>
+    <main class="flex-container container text-align-center justify-content-center">
+        <section>
+            <div>
+                <p class="font-size-36" style="display: inline-block;"> Create account </p>
+                <a href="login.html" style="color: black;"> Login <img src="img/vector3.png" alt="vector"></a>
+            </div>
+            <div>
+                <form>
+                    <input type="email" name="email" placeholder="Email address*" class="boder-padding"> <br>
+                    <input type="password" name="password" placeholder="Password*" class="boder-padding"> <br>
+                     <p >Your personal data will be used to support your experience <br> throughout this website, to manage access to your account, <br> and for other purposes described in our</p><a href="#" style="display: inline-block;">privacy policy.</a> <br>
+                    <input type="submit" value="Login"
+                        class="boder-radius-30 back-ground-black color-white padding-10-60 boder-none margin-top-50">
+                </form>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="container padding-70 flex-container justify-content-sb">
+            <ul>
+                <p class="color-silver">About us</p>
+                <li>Our company</li>
+                <li>Our history</li>
+                <li>Contact</li>
+                <li>Jobs</li>
+                <li>Journal</li>
+                <li>Store Locations</li>
+            </ul>
+            <ul>
+                <p class="color-silver">How can we help</p>
+                <li>FAQs</li>
+                <li>Order tracking</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Returns & Refunds</li>
+                <li>Support</li>
+            </ul>
+            <ul>
+                <p class="color-silver">Shop</p>
+                <li>Tops</li>
+                <li>Accessories</li>
+                <li>Jeans</li>
+                <li>Jackets</li>
+                <li>Shoes</li>
+            </ul>
+            <ul class="security-system">
+                <p class="color-silver">Security system</p>
+                <li>PCI security standards</li>
+                <li>Protect card owner</li>
+                <li>Encrypted network</li>
+            </ul>
+        </div>
+        <p class="color-silver flex-container container padding-left-100">Copyright © 2020 Nordic Coder. All rights
+            reserved.</p>
+    </footer>
 </body>
 
 </html>
